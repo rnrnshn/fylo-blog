@@ -1,0 +1,23 @@
+.main-container {
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+
+.main-card {
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 4rem;
+}
+
+.card-image {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card-description {
+  line-height: 1.5;
+}

@@ -1,0 +1,43 @@
+.quote {
+  padding: 2rem;
+  margin-bottom: 20rem;
+  color: var(--white);
+  background: url(../../assets/images/bg-quotes.png) no-repeat;
+  background-position: 2rem .5rem;
+  background-size: 2.2rem;
+}
+
+.quote-card {
+  background: var(--dark-blue-tg);
+  padding: 1.5rem 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.quote-citation {
+  font-size: .9rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.quote-info {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.quote-img {
+  max-width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-right: 1rem;
+}
+
+.quote-name {
+  line-height: 1.6;
+  margin-bottom: .3rem;
+}
+
+.quote-job-info {
+  font-size: .8rem;
+  word-spacing: 1.5px;
+}

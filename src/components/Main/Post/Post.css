@@ -1,0 +1,30 @@
+.post {
+  margin-bottom: 2rem;
+}
+
+.post-item {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: left;
+  color: var(--white);
+}
+
+.post-title {
+  margin-bottom: 1rem;
+}
+
+.post-description {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.post-image {
+  align-self: center;
+  width: 80%;
+  margin-bottom: 4rem;
+}
+
+.read-more {
+  color: var(--cyan-cta);
+  line-height: 1.5rem;
+}

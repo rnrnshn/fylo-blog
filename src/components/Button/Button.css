@@ -1,0 +1,13 @@
+button {
+  --btn-large: 1rem 8rem;
+  --btn-medium: 1rem 4rem;
+  border: none;
+  color: var(--white);
+  font-weight: 700;
+  border-radius: 1.5rem;
+}
+
+button {
+  padding: var(--btn-medium);
+  background: linear-gradient(to bottom right, var(--cyan-cta), var(--blue-cta));
+}

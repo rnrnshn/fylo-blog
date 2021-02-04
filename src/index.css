@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+  /* Intro and Email Sign up background */
+  --dark-blue-is: hsl(217, 28%, 15%);
+  --dark-blue-bg: hsl(218, 28%, 13%);
+  --dark-blue-fg: hsl(216, 53%, 9%);
+  --dark-blue-tg: hsl(219, 30%, 18%);
+
+/* Accent */
+  --cyan-cta: hsl(176, 68%, 64%);
+  --blue-cta: hsl(198, 60%, 50%);
+  --error: hsl(0, 100%, 63%);
+
+/* Neutral */
+  --white: hsl(0, 0%, 100%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background: var(--dark-blue-bg);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
 }

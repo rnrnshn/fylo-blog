@@ -1,0 +1,13 @@
+.header {
+  padding: 2rem;
+  margin-bottom: 4rem;
+  background: var( --dark-blue-is);
+}
+
+img {
+  width: 100%;
+}
+
+.logo {
+  max-width: 80px;
+}
