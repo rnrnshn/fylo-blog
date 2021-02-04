@@ -1,0 +1,33 @@
+.blog-container {
+  margin-bottom: 20rem;
+  padding: 2rem;
+  color: var(--white);
+}
+
+.blog-list-title {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  width: fit-content;
+  border-bottom: 1px solid var(--cyan-cta);
+}
+
+.blog-card {
+  background: var(--dark-blue-is);
+  padding: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  line-height: 1.6;
+}
+
+.blog-title {
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+.blog-author {
+  text-align: right;
+}
+
+.read-more {
+  font-weight: 700;
+}

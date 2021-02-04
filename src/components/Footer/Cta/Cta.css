@@ -28,6 +28,7 @@ input {
   border-radius: 2rem;
   margin-bottom: 1rem;
   width: 100%;
+  outline: none;
 }
 
 input[type=text] {
@@ -40,4 +41,5 @@ input[type=submit] {
   color: var(--white);
   background: linear-gradient(to bottom left,var(--blue-cta), var(--cyan-cta));
   padding: 1rem 0;
+  cursor: pointer;
 }

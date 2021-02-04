@@ -2,11 +2,10 @@
 .header-cover {
   color: var(--white);
   text-align: center;
+  padding: 2rem;
+  background: var( --dark-blue-is);
 }
 
-.cover-text {
-  background-size: 100%;
-}
 
 .cover-image {
   margin-bottom: 2rem;
@@ -22,4 +21,8 @@
   padding: 0 .5rem;
   margin-bottom: 2rem;
   line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
 }

@@ -1,6 +1,5 @@
 .header {
-  padding: 2rem;
-  margin-bottom: 4rem;
+  padding: 2rem  2rem .5rem 2rem;
   background: var( --dark-blue-is);
 }
 

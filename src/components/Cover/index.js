@@ -1,5 +1,5 @@
-import coverImage from '../../../assets/images/illustration-intro.png';
-import Button from '../../Button';
+import coverImage from '../../assets/images/illustration-intro.png';
+import Button from '../Button';
 import './Cover.css';
 
 const Cover = () => {
