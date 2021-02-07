@@ -17,6 +17,7 @@
   border-top-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .blog-title {
@@ -24,10 +25,21 @@
   width: fit-content;
 }
 
+.blog-body {
+  margin-bottom: .5rem;
+}
+
 .blog-author {
-  text-align: right;
+  margin-bottom: 1rem;
 }
 
 .read-more {
   font-weight: 700;
+  cursor: pointer;
+}
+
+
+.blogDetailsContainer {
+  padding: 1.5em;
+  margin-bottom: 20rem;
 }

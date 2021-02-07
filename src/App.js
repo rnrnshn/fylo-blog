@@ -1,6 +1,7 @@
 import Home from './pages/Home';
 import Blog from './pages/Blog';
 import New from './pages/New';
+import BlogDetails from './pages/BlogDetails';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
@@ -12,12 +13,16 @@ function App() {
             <Home />
           </Route>
 
-          <Route path="/Blog">
+          <Route path="/blog">
             <Blog />
           </Route>
 
-          <Route path="/New">
+          <Route path="/new">
             <New />
+          </Route>
+
+          <Route path="/blogs/:id">
+            <BlogDetails />
           </Route>
         </Switch>
       </div>
