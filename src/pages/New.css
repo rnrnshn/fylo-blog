@@ -1,5 +1,6 @@
 .new {
   margin-bottom: 15rem;
+  padding: 1rem;
 }
 
 .new form {
@@ -39,4 +40,9 @@
   border-bottom: .2rem solid var(--cyan-cta);
   color: var(--white);
 }
+
+.create-post-preview {
+  
+}
+
 

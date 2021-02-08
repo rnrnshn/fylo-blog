@@ -14,7 +14,7 @@ const Blog = () => {
         <h1 className="blog-list-title" > Blog Lists </h1>
         {error && <div> {error}</div>}
         {isLoading && <div> Loading...  </div>}
-        {posts && posts.map(post => (
+        {posts && posts.reverse().map(post => (
           <article className="blog-card" key={post.id}>
             <h3 className="blog-title">{post.title}</h3>
             <p>{post.body.slice(0, 148)}</p>
