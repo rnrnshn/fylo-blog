@@ -1,0 +1,41 @@
+.new {
+  margin-bottom: 20rem;
+}
+
+.new form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.new form label {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+  color: var(--cyan-cta);
+}
+
+.new input {
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.new textarea {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  height: 15rem;
+}
+
+.new input:focus, textarea:focus {
+  background: rgba(255, 255, 255, .1); 
+  transition: background 500ms ease-in; 
+}
+
+.new input, textarea {
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: .2rem solid var(--cyan-cta);
+  color: var(--white);
+}
+

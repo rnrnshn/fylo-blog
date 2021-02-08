@@ -41,5 +41,36 @@
 
 .blogDetailsContainer {
   padding: 1.5em;
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
+  color: var(--white);
+}
+
+.blog-d-card {
+  margin-bottom: 2rem;
+}
+
+.blog-d-title {
+  margin-bottom: 2rem;
+  width: fit-content;
+}
+
+.blog-d-body {
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.blog-author {
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.separator {
+  width: 50%;
+  height: .1rem;
+  margin: 0 auto;
+  background: var(--cyan-cta);
 }

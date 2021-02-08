@@ -11,9 +11,18 @@ const BlogDetails = () => {
     <div className="blogDetails">
       <Header />
       <div className="blogDetailsContainer">
-        <h1> Blog Details  - {id}</h1>
         {error && <div> {error}</div>}
         {isLoading && <div> Loading...</div>}
+        {posts && posts.filter(post => post.id === id).map(post => (
+          <article className="blog-d-card" key={post.id}>
+            <h2 className="blog-d-title">{post.title}</h2>
+            <p className="blog-d-body">{post.body}</p>
+            <div className="blog-d-author">
+              <strong>Author: </strong>
+              <em>{post.author}</em></div>
+          </article>
+        ))}
+        <div className="separator"></div>
       </div>
       <Footer />
     </div>
