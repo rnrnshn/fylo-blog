@@ -23,7 +23,7 @@
   margin-bottom: 2rem;
 }
 
-input {
+.cta input {
   border: none;
   border-radius: 2rem;
   margin-bottom: 1rem;
@@ -31,13 +31,13 @@ input {
   outline: none;
 }
 
-input[type=text] {
+.cta input[type=text] {
   background: var(--white);
   color: var(--dark-blue-tg);
   padding: 1rem;
 }
 
-input[type=submit] {
+.cta input[type=submit] {
   color: var(--white);
   background: linear-gradient(to bottom left,var(--blue-cta), var(--cyan-cta));
   padding: 1rem 0;

@@ -1,5 +1,5 @@
 .new {
-  margin-bottom: 20rem;
+  margin-bottom: 15rem;
 }
 
 .new form {
@@ -21,6 +21,7 @@
 }
 
 .new textarea {
+  font-family: 'Opensans', sans-serif;;
   padding: 1rem;
   margin-bottom: 2rem;
   height: 15rem;
@@ -28,7 +29,7 @@
 
 .new input:focus, textarea:focus {
   background: rgba(255, 255, 255, .1); 
-  transition: background 500ms ease-in; 
+  transition: background 100ms ease; 
 }
 
 .new input, textarea {

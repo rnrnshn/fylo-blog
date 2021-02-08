@@ -1,4 +1,6 @@
+import Footer from '../components/Footer';
 import Header from '../components/Header';
+import './New.css';
 // import db from '../services/firebaseConfig';
 
 const New = () => {
@@ -23,14 +25,29 @@ const New = () => {
     <div className="create-new">
       <Header />
       <div className="new">
-        <form>
-          <label> Title</label>
-          <input type="text" />
-          <label>Body</label>
-          <textarea></textarea>
-          <button>Add post</button>
+        <form className="create-post-container">
+          <label className="create-post-title">Add title</label>
+          <input
+            type="text"
+            className="create-post-title-input"
+            placeholder="Add title..."
+          />
+          <label className="create-post-title">Add post</label>
+          <textarea
+            type="text"
+            className="create-post-title-input"
+            placeholder="Write article..."
+          />
+          <label className="create-post-title">Add author</label>
+          <input
+            type="text"
+            className="create-post-author-input"
+            placeholder="Add author..."
+          />
+          <button className="create-post-submit">Add post</button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 }
