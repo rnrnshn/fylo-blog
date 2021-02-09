@@ -1,4 +1,5 @@
 import db from '../services/firebaseConfig';
+import { useHistory } from 'react-router-dom';
 import { useState } from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -8,6 +9,7 @@ const New = () => {
   const [title, setTitle] = useState('');
   const [article, setArticle] = useState('');
   const [author, setAuthor] = useState('');
+  const history = useHistory();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -20,6 +22,7 @@ const New = () => {
       author: post.author
     })
       .then((docRef) => {
+        history.push('/Blog');
         console.log("Document written with ID: ", docRef.id);
       })
       .catch((error) => {

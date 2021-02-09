@@ -38,7 +38,6 @@
   cursor: pointer;
 }
 
-
 .blogDetailsContainer {
   padding: 1.5em;
   margin-bottom: 15rem;
@@ -59,13 +58,14 @@
   line-height: 1.5;
 }
 
-.blog-author {
-  margin-bottom: 1rem;
+.blog-d-author {
+  margin-bottom: 1.5rem;
 }
 
-.read-more {
-  font-weight: 700;
-  cursor: pointer;
+
+.delete-post {
+  display: block;
+  margin: 0 auto;
 }
 
 .separator {
