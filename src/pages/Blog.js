@@ -14,6 +14,7 @@ const Blog = () => {
         <h1 className="blog-list-title" > Blog Lists </h1>
         {error && <div> {error}</div>}
         {isLoading && <div> Loading...  </div>}
+        <div className="blog-card-Container">
         {posts && posts.reverse().map(post => (
           <article className="blog-card" key={post.id}>
             <h3 className="blog-title">{post.title}</h3>
@@ -29,6 +30,8 @@ const Blog = () => {
             </Link>
           </article>
         ))}
+        </div>
+        
       </div>
       <Footer />
     </section >

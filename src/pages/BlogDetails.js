@@ -26,7 +26,12 @@ const BlogDetails = () => {
         {posts && posts.filter(post => post.id === id).map(post => (
           <article className="blog-d-card" key={post.id}>
             <h2 className="blog-d-title">{post.title}</h2>
-            <p className="blog-d-body">{post.body}</p>
+            <p className="blog-d-body">{post.body.split('\n\n').map( paragraph => (
+              <p>
+                {paragraph.split('\n').reduce((total, line) => [total, <br />, line])}
+              </p>
+            )
+            )}</p>
             <div className="blog-d-author">
               <strong>Author: </strong>
               <em>{post.author}</em></div>

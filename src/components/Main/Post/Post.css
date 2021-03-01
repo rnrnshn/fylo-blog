@@ -26,7 +26,21 @@
 
 .read-more {
   color: var(--cyan-cta);
-  line-height: 1.5rem;
+  display: flex;
+  width: max-content;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.read-more:hover {
+  color: var(--white);
+}
+
+.read-icon {
+  display: grid;
+  place-items: center;
 }
 
 @media (min-width: 1200px) {

@@ -1,5 +1,6 @@
 import stayProductive from '../../../assets/images/illustration-stay-productive.png';
 import './Post.css';
+import { FaArrowRight } from 'react-icons/fa'
 
 const Post = () => {
   return (
@@ -16,7 +17,10 @@ const Post = () => {
             Securely share files and folders with friends, family and colleagues for live collaboration. No email
             attachments required.
           </p>
-          <a href="/" className="read-more">See how Fylo works</a>
+          <a href="/" className="read-more">
+            <span className="read-text">See how Fylo works </span>
+            <span className="read-icon"> <FaArrowRight className="arrow"/> </span>
+          </a>
         </div>
       </div>
     </div>

@@ -12,7 +12,7 @@
 .new form label {
   font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
   color: var(--cyan-cta);
 }
 
@@ -22,27 +22,26 @@
 }
 
 .new textarea {
-  font-family: 'Opensans', sans-serif;;
+  font-family: "Opensans", sans-serif;
   padding: 1rem;
   margin-bottom: 2rem;
   height: 15rem;
 }
 
-.new input:focus, textarea:focus {
-  background: rgba(255, 255, 255, .1); 
-  transition: background 100ms ease; 
+.new input:focus,
+textarea:focus {
+  background: rgba(255, 255, 255, 0.1);
+  transition: background 100ms ease;
 }
 
-.new input, textarea {
+.new input,
+textarea {
   background: none;
   border: none;
   outline: none;
-  border-bottom: .2rem solid var(--cyan-cta);
+  border-bottom: 0.2rem solid var(--cyan-cta);
   color: var(--white);
 }
 
 .create-post-preview {
-  
 }
-
-
