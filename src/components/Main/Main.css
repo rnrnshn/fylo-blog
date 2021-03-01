@@ -21,3 +21,33 @@
 .card-description {
   line-height: 1.5;
 }
+
+@media (min-width: 1200px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto 5rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-card {
+    flex-basis: 40ch;
+    margin: 1rem;
+  }
+
+  .main-card > * {
+    margin-bottom: 1rem;
+  }
+
+  .card-image {
+    width: 15%;
+  }
+
+  .card-description {
+    width: 90%;
+    margin: 0 auto;
+  }
+}

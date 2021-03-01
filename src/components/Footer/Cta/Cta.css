@@ -6,10 +6,9 @@
   background: var(--dark-blue-is);
   border-radius: 1rem;
   color: var(--white);
-  box-shadow: .2rem .5rem .5rem rgba(0,0,0,.1);
+  box-shadow: 0.2rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
   margin-top: -13rem;
   margin-bottom: 6rem;
-  
 }
 
 .cta-title {
@@ -31,15 +30,33 @@
   outline: none;
 }
 
-.cta input[type=text] {
+.cta input[type="text"] {
   background: var(--white);
   color: var(--dark-blue-tg);
   padding: 1rem;
 }
 
-.cta input[type=submit] {
+.cta input[type="submit"] {
   color: var(--white);
-  background: linear-gradient(to bottom left,var(--blue-cta), var(--cyan-cta));
+  background: linear-gradient(to bottom left, var(--blue-cta), var(--cyan-cta));
   padding: 1rem 0;
   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .cta {
+    width: 50rem;
+    margin: -10rem auto 6rem;
+    padding: 2rem 2rem;
+  }
+
+  .input-container {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+  }
+
+  .cta input[type="submit"] {
+    flex-basis: 30%;
+  }
 }

@@ -4,6 +4,7 @@ import Cta from './Cta';
 import location from '../../assets/images/icon-location.svg';
 import phone from '../../assets/images/icon-phone.svg';
 import email from '../../assets/images/icon-email.svg';
+import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa'
 
 
 const Footer = () => {
@@ -23,18 +24,20 @@ const Footer = () => {
                 dolore magna aliqua
               </p>
             </aside>
-            <aside className="contact-item">
-              <img src={phone} alt="phone" />
-              <p className="location">
-                +1-543-123-4567
-              </p>
-            </aside>
-            <aside className="contact-item">
-              <img src={email} alt="email" />
-              <p className="location">
-                example@fylo.com
-              </p>
-            </aside>
+            <div className="contacts-icons">
+              <aside className="contact-item">
+                <img src={phone} alt="phone" />
+                <p className="location-c">
+                  +1-543-123-4567
+                </p>
+              </aside>
+              <aside className="contact-item">
+                <img src={email} alt="email" />
+                <p className="location-c">
+                  example@fylo.com
+                </p>
+              </aside>
+            </div>
           </section>
 
           <section className="footer-nav">
@@ -50,12 +53,17 @@ const Footer = () => {
               <a href="/"> Terms</a>
               <a href="/"> Privacy</a>
             </aside>
-          </section>
-
-          <section className="footer-social">
-            <a href="/facebook">Facebook</a>
-            <a href="/twitter">Twitter</a>
-            <a href="/instagram">Instagram</a>
+            <section className="footer-social">
+              <a href="/facebook">
+                <FaFacebookF />
+              </a>
+              <a href="/twitter">
+                <FaTwitter />
+              </a>
+              <a href="/instagram">
+                <FaInstagram />
+              </a>
+            </section>
           </section>
         </div>
       </div>

@@ -1,11 +1,9 @@
-
 .header-cover {
   color: var(--white);
   text-align: center;
   padding: 2rem;
-  background: var( --dark-blue-is);
+  background: var(--dark-blue-is);
 }
-
 
 .cover-image {
   margin-bottom: 2rem;
@@ -18,11 +16,29 @@
 }
 
 .cover-description {
-  padding: 0 .5rem;
+  padding: 0 0.5rem;
   margin-bottom: 2rem;
   line-height: 1.6;
 }
 
 button {
   cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .illustration-img {
+    width: min-content;
+  }
+
+  .cover-title {
+    width: 40ch;
+    font-size: 2.5rem;
+    margin: 0 auto 2rem;
+  }
+
+  .cover-description {
+    font-size: 1.1rem;
+    width: 50ch;
+    margin: 0 auto 2rem;
+  }
 }

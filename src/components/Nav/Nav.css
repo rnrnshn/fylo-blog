@@ -5,7 +5,8 @@
   margin-bottom: 1.5rem;
 }
 
-.nav-list {}
+.nav-list {
+}
 
 .nav-item {
   color: var(--white);
@@ -15,4 +16,10 @@
 
 .nav-item:last-child {
   padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .nav-item {
+    padding-right: 3.5rem;
+  }
 }

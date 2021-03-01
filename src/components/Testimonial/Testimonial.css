@@ -3,7 +3,7 @@
   margin-bottom: 20rem;
   color: var(--white);
   background: url(../../assets/images/bg-quotes.png) no-repeat;
-  background-position: 2rem .5rem;
+  background-position: 2rem 0.5rem;
   background-size: 2.2rem;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .quote-citation {
-  font-size: .9rem;
+  font-size: 0.9rem;
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -34,10 +34,19 @@
 
 .quote-name {
   line-height: 1.6;
-  margin-bottom: .3rem;
+  margin-bottom: 0.3rem;
 }
 
 .quote-job-info {
-  font-size: .8rem;
+  font-size: 0.8rem;
   word-spacing: 1.5px;
+}
+
+@media (min-width: 1200px) {
+  .quote {
+    width: 90%;
+    margin: 0 auto 14rem;
+    display: flex;
+    gap: 2rem;
+  }
 }

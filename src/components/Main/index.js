@@ -36,13 +36,16 @@ const Main = () => {
 
   return (
     <main className="main-container">
-      {card.map((card) => (
-        <aside className="main-card" key={card.id}>
-          <img className="card-image" src={card.image} alt={card.title} />
-          <h2 className="card-title">{card.title}</h2>
-          <p className="card-description">{card.text}</p>
-        </aside>
-      ))}
+      <div className="card-container">
+        {card.map((card) => (
+          <aside className="main-card" key={card.id}>
+            <img className="card-image" src={card.image} alt={card.title} />
+            <h2 className="card-title">{card.title}</h2>
+            <p className="card-description">{card.text}</p>
+          </aside>
+        ))}
+      </div>
+
       <Post />
     </main>
   );

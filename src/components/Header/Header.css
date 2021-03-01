@@ -1,6 +1,6 @@
 .header {
-  padding: 2rem  2rem .5rem 2rem;
-  background: var( --dark-blue-is);
+  padding: 2rem 2rem 0.5rem 2rem;
+  background: var(--dark-blue-is);
 }
 
 img {
@@ -9,4 +9,14 @@ img {
 
 .logo {
   max-width: 80px;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    padding: 4rem 4rem 1rem 4rem;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
 }

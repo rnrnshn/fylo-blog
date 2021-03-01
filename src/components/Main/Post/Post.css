@@ -28,3 +28,20 @@
   color: var(--cyan-cta);
   line-height: 1.5rem;
 }
+
+@media (min-width: 1200px) {
+  .post {
+    margin-bottom: 2rem;
+  }
+
+  .post-item {
+    flex-direction: row;
+    align-items: center;
+    padding: 0 3rem;
+    gap: 4rem;
+  }
+
+  .post-title {
+    font-size: 4ch;
+  }
+}
