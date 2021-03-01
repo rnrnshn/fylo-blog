@@ -81,6 +81,12 @@
   .footer-links {
     display: flex;
     justify-content: space-between;
+    gap: 4rem;
+    font-size: 0.8rem;
+  }
+
+  .footer-links > * {
+    flex-basis: 50%;
   }
 
   .footer-contacts {
@@ -102,8 +108,10 @@
 
   .footer-nav {
     display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
     flex-direction: row;
     margin: unset;
-    gap: 5rem;
+    gap: 3rem;
   }
 }

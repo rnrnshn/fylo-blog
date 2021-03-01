@@ -8,6 +8,8 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <div className="container">
+
         <Switch>
           <Route exact path="/">
             <Home />
@@ -25,7 +27,8 @@ function App() {
             <BlogDetails />
           </Route>
         </Switch>
-      </div>
+    </div>
+    </div>
     </Router>
   );
 }

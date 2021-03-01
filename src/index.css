@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
 
 :root {
   /* Intro and Email Sign up background */
@@ -7,12 +7,12 @@
   --dark-blue-fg: hsl(216, 53%, 9%);
   --dark-blue-tg: hsl(219, 30%, 18%);
 
-/* Accent */
+  /* Accent */
   --cyan-cta: hsl(176, 68%, 64%);
   --blue-cta: hsl(198, 60%, 50%);
   --error: hsl(0, 100%, 63%);
 
-/* Neutral */
+  /* Neutral */
   --white: hsl(0, 0%, 100%);
 }
 
@@ -23,11 +23,23 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   background: var(--dark-blue-bg);
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Open Sans", sans-serif;
   font-weight: 700;
+}
+
+@media (min-width: 1441px) {
+  .container {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
 }
